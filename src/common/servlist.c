@@ -328,6 +328,9 @@ static const struct defaultserver def[] =
 	{"UnderNet", 0, 0, 0, LOGIN_CUSTOM, "MSG x@channels.undernet.org login %u %p"},
 	{0,			"irc.undernet.org"},
 
+	{"WuP", 0, 0, 0, LOGIN_SASL, 0, TRUE},
+	{0,			"irc.wup.nu"},
+
 	{"Xertion", 0, 0, 0, LOGIN_SASL, 0, TRUE},
 	{0,			"irc.xertion.org"},
 
